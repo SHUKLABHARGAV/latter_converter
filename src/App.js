@@ -35,7 +35,7 @@ function App() {
   return (
     <>
 
-      <Navbar  title= "TextUtils" about="About us" mode={mode} toggleMode={toggleMode} />
+      <Navbar  title= "Latter_Conveter" about="About us" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <div className="container my-3">
       <TextForm heading="Enter the text for analyze" mode={mode}/>
